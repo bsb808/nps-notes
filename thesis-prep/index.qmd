@@ -19,5 +19,3 @@ is meant to be looked up, not read through.
   into a video.
 - **[MS thesis presentation guidelines](presentation-guidelines.qmd)** — preparing
   and delivering the thesis brief.
-- **[MAE final draft process](final-draft-process.qmd)** — the unofficial guide to
-  getting the Department Chair's final authorization.

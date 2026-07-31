@@ -1,0 +1,184 @@
+---
+title: "MS Thesis Advising Quickstart"
+subtitle: "Expectations and a schedule to plan toward"
+---
+
+These are introductory notes for new and potential thesis advisees in the Field
+Robotics Lab. They exist to set expectations on both sides and to give you a
+schedule you can plan against. Explicit expectations make the work more efficient
+and more productive.
+
+## What you are committing to
+
+::: {.callout-important}
+To do a high-quality thesis requires that you commit to doing a thesis in FRL
+**five quarters prior to your graduation**.
+:::
+
+Thesis research in FRL takes more time than the four thesis blocks allocated in
+your course matrix. The table below estimates the commitment in units of class
+blocks — roughly double the time formally allocated.
+
+| Quarter | 4 | 3 | 2 | 1 | 0 |
+|---|---|---|---|---|---|
+| **Description** | Background — problem statement, lit review, proposal | Foundation — tools, skills, prototyping | Execution — development, experiment | Documentation — document, draft | Graduation — administration, revision |
+| **Time** | 1 course overload | 1 thesis block + 1 course overload | 1 thesis block + 1 course overload | 2 thesis blocks | 1 thesis block (1 directed study) |
+
+Course work and research work will often compete for your time. Courses should not
+be neglected for your research, but neither should your research be neglected for
+coursework. There will be times when you need to prioritize progress on your
+research over perfecting work for your courses.
+
+NPS offers a number of additional educational opportunities — the TSSE program,
+FE/PE exam preparation, and others. In my experience, taking on these additional
+commitments should be carefully considered when planning your time.
+
+## Generic thesis outline
+
+For the purposes of this discussion, an NPS MS thesis consists of these chapters.
+This is an approximation, not a rule.
+
+1. **Introduction** — motivation, problem statement, contributions.
+2. **Literature Review** — background, closely related work.
+3. **Approach** — background, procedures, methods, models, experimental setup.
+4. **Results and Analysis** — the majority of the technical contribution.
+5. **Conclusion** — discussion, summary referring back to the problem statement and
+   contributions, and future work.
+
+## The schedule
+
+Typical deliverables by quarter follow. Your specific timeline will be based on
+your topic, but will likely vary only slightly.
+
+### Quarter 4: Background
+
+Develop a specific thesis question and investigate the research literature to
+describe how your topic fits within the context of the current literature.
+
+Mid-quarter:
+
+- Second Draft, thesis proposal
+- Outline of Literature Review chapter
+
+End of quarter:
+
+- Final Draft, thesis proposal, including specific anticipated contributions
+- First Draft, Literature Review chapter, with document database and automated
+  cross-references
+- Detailed Outline of Introduction
+
+### Quarter 3: Foundation
+
+Acquire the knowledge and skills required to execute your approach. This may
+include reproducing previous results from the literature, learning new tools, or
+setting up new systems — vehicles, sensors, and so on.
+
+Beginning of quarter:
+
+- Full Outline of Approach chapter
+
+Mid-quarter:
+
+- First Draft of Introduction and Approach chapters
+
+End of quarter:
+
+- Second Draft of Introduction and Approach chapters
+
+### Quarter 2: Execution
+
+The culmination of the previous two quarters, and where the "doing" of the thesis
+work happens. By the end of the quarter you should have answered your thesis
+question.
+
+Beginning of quarter:
+
+- Full Outline of Results and Analysis chapter
+
+End of quarter:
+
+- 90% of thesis research complete
+- Detailed Outline of Results and Analysis chapter
+
+### Quarter 1: Documentation
+
+The emphasis shifts from doing the research to documenting the results. You begin
+by drafting the Results and Analysis chapter; assembling that material usually
+reveals additional work — experiments, simulations — needed to finalize the
+results. This is also when you begin working with the document as a whole rather
+than individual chapters.
+
+Mid-quarter:
+
+- First Draft of Results and Analysis chapter
+- Detailed Outline of Conclusion chapter
+
+End of quarter:
+
+- Second Draft of Results and Analysis chapter
+- First Draft of Conclusion chapter and Abstract
+- First Draft of complete thesis
+
+### Quarter 0: Graduation
+
+This quarter guides your thesis through the revision and acceptance process.
+
+| Week | Milestone |
+|---|---|
+| 2 | Submit first three chapters to thesis processing |
+| **3** | **Submit Second Draft of complete thesis to your advisor** |
+| 6 | Submit Third Draft to second reader |
+| 8 | Submit Final Draft to the department (Chair and Program Officer) |
+| 9 | Submission to thesis processing |
+| 11 | Graduation |
+
+: {tbl-colwidths="[12,88]"}
+
+## Writing
+
+I provide notes and pointers to resources to help you prepare thesis documents,
+but I do not proofread your documents. When writing professional research
+documents — proposal, papers, thesis — you should:
+
+- Make sure you are prepared, by consulting the [writing
+  resources](../thesis-prep/technical-writing.qmd) and doing whatever preparation
+  you need in order to write effectively.
+- Prepare a First Draft.
+- Prepare a Second Draft by revising the document at least once, having at least
+  one external person review it (a classmate, the graduate writing center), and
+  revising again based on that review.
+
+### Stages of a document
+
+I use these terms consistently when planning, so that we mean the same thing by
+them:
+
+| Stage | What it means |
+|---|---|
+| Outline | Headings, subheadings, and subsubheadings only. |
+| Full Outline | Outline plus a description of each element — notes, bullet lists. |
+| Detailed Outline | Full Outline plus key figures, tables, and equations, or sketches of what we expect them to look like. Includes bullet lists of anticipated results and conclusions. |
+| First Draft | The first time the document is in a state to be reviewed and revised. |
+| Second Draft | After you have revised it yourself, had it reviewed externally, and revised again based on that review. This is the draft that is ready for my review. |
+| Third Draft | Reviewed by me and revised — ready for the second reader. |
+| Final Draft | Accepted by the second reader and ready for department review. |
+
+: {tbl-colwidths="[22,78]"}
+
+The Full Outline and Detailed Outline are the critical steps. Once we agree on the
+Detailed Outline for each part of your thesis, the writing itself should be fairly
+straightforward.
+
+## How my review works
+
+::: {.callout-important}
+My review happens between the Second and Third Drafts, and **at least three weeks
+should be budgeted for it**. That allows time for iteration, discussion, and the
+possibility of additional experiments and analysis.
+:::
+
+My detailed review is done on the complete thesis document at the Second Draft
+stage, including complete conclusions and abstract. I am of course happy to review
+parts of the document earlier — a specific chapter or section you have questions
+about — but reviewing the complete document is the most efficient use of
+everyone's time.

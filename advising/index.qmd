@@ -4,15 +4,14 @@ subtitle: "Expectations, timelines, and the mechanics of working together"
 ---
 
 ::: {.callout-note appearance="simple"}
-Written for students I advise or am about to advise. Read
-[Working with me](working-with-me.qmd) first.
+Written for students I advise or am about to advise. Read the
+[quickstart](quickstart.qmd) first.
 :::
 
 ## Pages
 
-- **[Working with me](working-with-me.qmd)** — how I balance coursework against
-  research, what the draft stages mean, and how my review of your thesis works.
-- **[Thesis timeline](thesis-timeline.qmd)** — the notional five-quarter plan, with
-  deliverables quarter by quarter through graduation.
+- **[MS Thesis Advising Quickstart](quickstart.qmd)** — introductory notes for new
+  and potential advisees: the time commitment, a five-quarter schedule with
+  deliverables, what the draft stages mean, and how my review works.
 - **[Second reader expectations](second-reader.qmd)** — read this if you would like
   me to serve as a thesis second reader.

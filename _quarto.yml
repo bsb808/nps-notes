@@ -37,8 +37,7 @@ website:
       - section: "Advising"
         href: advising/index.qmd
         contents:
-          - advising/working-with-me.qmd
-          - advising/thesis-timeline.qmd
+          - advising/quickstart.qmd
           - advising/second-reader.qmd
       - section: "Thesis Preparation"
         href: thesis-prep/index.qmd
@@ -47,7 +46,6 @@ website:
           - thesis-prep/figures-for-writing.qmd
           - thesis-prep/matlab-movies.qmd
           - thesis-prep/presentation-guidelines.qmd
-          - thesis-prep/final-draft-process.qmd
   page-footer:
     left: "© Brian Bingham · [Source on GitHub](https://github.com/bsb808/nps-notes)"
     right: "Built with [Quarto](https://quarto.org/)"
