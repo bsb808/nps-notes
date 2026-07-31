@@ -5,7 +5,7 @@ subtitle: "Advising notes and technical how-tos — Brian Bingham"
 
 This site holds the material students need from *me* rather than from a particular
 course: how I advise, what I expect from thesis work, and the technical how-tos I
-would otherwise explain one office visit at a time.
+would otherwise explain one conversation at a time.
 
 Course material lives on its own site — see [{{< var course_name >}}]({{< var course_site >}}).
 
@@ -28,8 +28,3 @@ figures that survive publication.
 :::
 
 :::
-
-## Getting in touch
-
-Email is {{< var email >}}; office hours and location are on the
-[About](about.qmd) page.

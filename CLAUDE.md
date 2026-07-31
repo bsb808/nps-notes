@@ -11,9 +11,13 @@ differs from the ME 2801 course repo, which nests). Two content sections:
 - `advising/` — expectations, thesis timeline, recommendation letters
 - `howto/` — technical guides (dev environment, git, figures)
 
-`_variables.yml` holds contact and course-link values, referenced from pages as
-`{{< var email >}}`. There are no per-quarter variables here — this site does not
-follow a course cycle.
+`_variables.yml` holds name, course links, and the last-updated date, referenced
+from pages as `{{< var course_site >}}`. There are no per-quarter variables here —
+this site does not follow a course cycle.
+
+The site carries **no contact information** — no email, no office, no office hours.
+That is deliberate: students find him in the NPS global directory, and he does not
+hold office hours. Do not add a contact block back.
 
 ## Publishing
 

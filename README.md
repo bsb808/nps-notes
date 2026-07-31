@@ -20,10 +20,10 @@ manual build or upload step.
 
 ```
 _quarto.yml        site config (title, nav, theme, CNAME resource)
-_variables.yml     contact info and course links used by pages
+_variables.yml     name, course links, last-updated date used by pages
 CNAME              custom domain
 index.qmd          landing page
-about.qmd          contact and office hours
+about.qmd          what the site is, links out to courses
 advising/          advising notes
 howto/             technical guides
 assets/            images and small PDFs
