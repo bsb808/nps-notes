@@ -14,5 +14,3 @@ Written for students I advise or am about to advise. Read
   I give feedback, and what I expect you to own.
 - **[Thesis timeline](thesis-timeline.qmd)** — milestones from topic selection to
   defense, with the lead times that actually bind.
-- **[Recommendation letters](recommendation-letters.qmd)** — when to ask, what to
-  send me, and what I can and cannot write.

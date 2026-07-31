@@ -16,8 +16,7 @@ Course material lives on its own site — see [{{< var course_name >}}]({{< var 
 ::: {.g-col-12 .g-col-md-6}
 ### [Advising](advising/index.qmd)
 
-How to work with me, what a thesis timeline looks like, and how I handle
-recommendation letters.
+How to work with me, and what a thesis timeline looks like.
 :::
 
 ::: {.g-col-12 .g-col-md-6}

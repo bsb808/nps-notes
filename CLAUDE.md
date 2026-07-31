@@ -8,7 +8,7 @@ how-tos. Published at <https://nps-notes.bbingham.dev>.
 Quarto website with the project at the **repo root** (no `site/` nesting — this
 differs from the ME 2801 course repo, which nests). Two content sections:
 
-- `advising/` — expectations, thesis timeline, recommendation letters
+- `advising/` — expectations, thesis timeline
 - `howto/` — technical guides (dev environment, git, figures)
 
 `_variables.yml` holds name, course links, and the last-updated date, referenced
