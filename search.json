@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NPS Notes",
+    "section": "",
+    "text": "This site holds the material students need from me rather than from a particular course: how I advise, what I expect from thesis work, and the technical how-tos I would otherwise explain one conversation at a time.\nCourse material lives on its own site — see ME 2801 — Introduction to Feedback Control."
+  },
+  {
+    "objectID": "index.html#sections",
+    "href": "index.html#sections",
+    "title": "NPS Notes",
+    "section": "Sections",
+    "text": "Sections\n\n\nAdvising\nHow to work with me, and what a thesis timeline looks like.\n\n\nHow-Tos\nSetting up a development environment, using git for thesis work, and producing figures that survive publication."
+  },
+  {
+    "objectID": "howto/git-for-thesis-work.html",
+    "href": "howto/git-for-thesis-work.html",
+    "title": "Git for thesis work",
+    "section": "",
+    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: the handful of commands that carry a thesis, commit hygiene for a document you will revise for two years, what belongs in the repo and what does not (large data, generated PDFs), and recovering from the usual mistakes."
+  },
+  {
+    "objectID": "howto/dev-environment.html",
+    "href": "howto/dev-environment.html",
+    "title": "Development environment",
+    "section": "",
+    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: operating system and shell, editor and extensions, Python environment management, MATLAB, and how these fit together on an NPS-managed machine."
+  },
+  {
+    "objectID": "advising/thesis-timeline.html",
+    "href": "advising/thesis-timeline.html",
+    "title": "Thesis timeline",
+    "section": "",
+    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: milestones from topic selection through proposal, data collection, writing, and defense — with the deadlines that have real lead time (committee formation, IRB or release review, thesis processing)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Notes that are mine rather than any one course’s: advising expectations and technical how-tos. Written by Brian Bingham for NPS students."
+  },
+  {
+    "objectID": "about.html#courses",
+    "href": "about.html#courses",
+    "title": "About",
+    "section": "Courses",
+    "text": "Courses\n\nME 2801 — Introduction to Feedback Control"
+  },
+  {
+    "objectID": "about.html#about-this-site",
+    "href": "about.html#about-this-site",
+    "title": "About",
+    "section": "About this site",
+    "text": "About this site\nBuilt with Quarto and published from bsb808/nps-notes.\nLast updated: 2026-07-31."
+  },
+  {
+    "objectID": "advising/index.html",
+    "href": "advising/index.html",
+    "title": "Advising",
+    "section": "",
+    "text": "Written for students I advise or am about to advise. Read Working with me first."
+  },
+  {
+    "objectID": "advising/index.html#pages",
+    "href": "advising/index.html#pages",
+    "title": "Advising",
+    "section": "Pages",
+    "text": "Pages\n\nWorking with me — meeting cadence, what to bring, how I give feedback, and what I expect you to own.\nThesis timeline — milestones from topic selection to defense, with the lead times that actually bind."
+  },
+  {
+    "objectID": "advising/working-with-me.html",
+    "href": "advising/working-with-me.html",
+    "title": "Working with me",
+    "section": "",
+    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: how often we meet and who sets the agenda, what to bring to a meeting, how I give feedback on drafts, and which parts of the work are yours to drive."
+  },
+  {
+    "objectID": "howto/figures-for-writing.html",
+    "href": "howto/figures-for-writing.html",
+    "title": "Figures for writing",
+    "section": "",
+    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: vector versus raster and when each is right, sizing and font choices that survive a printed thesis, color choices that survive grayscale and a bad projector, and the export settings to use from MATLAB, Python, and draw.io."
+  },
+  {
+    "objectID": "howto/index.html",
+    "href": "howto/index.html",
+    "title": "How-Tos",
+    "section": "",
+    "text": "Tool and workflow guides for research and thesis work. Use the search box — this section is meant to be looked up, not read through."
+  },
+  {
+    "objectID": "howto/index.html#pages",
+    "href": "howto/index.html#pages",
+    "title": "How-Tos",
+    "section": "Pages",
+    "text": "Pages\n\nDevelopment environment — the setup I recommend, and why: shell, editor, Python/MATLAB, and version control.\nGit for thesis work — a working subset of git for a multi-year, single-author project, including how to handle large data and LaTeX.\nFigures for writing — producing figures that stay legible in a printed thesis and a projected slide."
+  }
+]
