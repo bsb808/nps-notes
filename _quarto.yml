@@ -14,6 +14,9 @@ project:
 website:
   title: "NPS Notes — Brian Bingham"
   site-url: https://nps-notes.bbingham.dev
+  # Interim mark; assets/favicon.svg is the editable source. To replace,
+  # overwrite favicon.png with a square image (512px is plenty).
+  favicon: assets/favicon.png
   repo-url: https://github.com/bsb808/nps-notes
   search: true               # a reference site is searched, not read through
   navbar:
