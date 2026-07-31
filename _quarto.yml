@@ -7,6 +7,9 @@ project:
     - "thesis-prep/**/*.qmd"
   resources:
     - CNAME
+    # Explicit: Quarto auto-copies assets it finds in markdown, but misses ones
+    # referenced from raw HTML (e.g. the <video> tag in matlab-movies.qmd).
+    - assets/
 
 website:
   title: "NPS Notes — Brian Bingham"
@@ -36,12 +39,15 @@ website:
         contents:
           - advising/working-with-me.qmd
           - advising/thesis-timeline.qmd
+          - advising/second-reader.qmd
       - section: "Thesis Preparation"
         href: thesis-prep/index.qmd
         contents:
-          - thesis-prep/dev-environment.qmd
-          - thesis-prep/git-for-thesis-work.qmd
+          - thesis-prep/technical-writing.qmd
           - thesis-prep/figures-for-writing.qmd
+          - thesis-prep/matlab-movies.qmd
+          - thesis-prep/presentation-guidelines.qmd
+          - thesis-prep/final-draft-process.qmd
   page-footer:
     left: "© Brian Bingham · [Source on GitHub](https://github.com/bsb808/nps-notes)"
     right: "Built with [Quarto](https://quarto.org/)"

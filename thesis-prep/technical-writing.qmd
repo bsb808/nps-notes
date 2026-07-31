@@ -1,0 +1,126 @@
+---
+title: "Technical writing notes"
+subtitle: "Best practices and common mistakes for NPS theses"
+---
+
+A collection of best practices and common mistakes for technical writing at NPS —
+in particular for theses in the MAE department. These notes complement the
+[official thesis guidelines and
+template](https://my.nps.edu/web/thesisprocessing/); if there is any conflict in
+style recommendations, use the official NPS processing guidelines.
+
+Ideally these will save you time, so you don't have to fix known issues during the
+revision process.
+
+::: {.callout-warning}
+Reading this will save us all time and re-work. If it becomes clear that you have
+not read and understood these guidelines, I reserve the right to return your draft
+immediately without further review.
+:::
+
+## Contributions
+
+The contributions of a thesis or research paper should be clear and concise. I
+recommend a subsection titled *Contributions* listing them in bullet form. There do
+not need to be many — one to three is typical — but they are critically important
+in guiding what evidence belongs in the work and what is left out. Everything in
+the document should relate to these points, helping you substantiate the claims.
+
+Paraphrasing a colleague: "all research must answer a definitive question; good
+research answers an important question." M. E. Swisher's [What Constitutes a Good
+Contribution](https://fycs.ifas.ufl.edu/swisher/6800_18_ELRN/What_Constitutes_Good_Contribution.pdf)
+provides worthwhile guidance.
+
+## General grammar
+
+If you don't know how to use a particular grammatical construction, look it up
+rather than inventing your own usage. For example: when you use the word "but,"
+when should there be a preceding comma? There is a great deal of specific guidance
+online from many good sources.
+
+For the basics — which cover 95% of what you need — I highly recommend Strunk and
+White's *The Elements of Style*, available [free
+online](http://www.bartleby.com/141/). Developing habits that follow the usage
+guidelines in this very short book will save you a lot of revision time.
+
+## Figures and tables
+
+There is a distinction between figure *titles* and *captions*:
+
+- The NPS thesis template puts figure titles below the image. As the template
+  explains, figure titles are capitalized like a book title. This is what appears
+  in the list of figures.
+- A figure caption is a brief explanation of the image contents, written in
+  complete sentences and punctuated accordingly. The template formats these as
+  **Figure Secondary Caption**. Captions are optional, but encouraged — a good
+  portion of readers look at your figures and read the captions as the first step
+  in reading your work.
+
+Other rules that come up constantly:
+
+- All graphs should have labels on all axes, and the labels should include
+  engineering units.
+- Any text in the figure — labels, legends — should use a font size similar to the
+  document text and be clearly readable.
+- A common mistake is an image that carries its own title. For figures there should
+  be no title inside the image (no `title()` command in MATLAB); the title belongs
+  to the document.
+
+See [figures for writing](figures-for-writing.qmd) for how to produce
+publication-quality images from MATLAB.
+
+## Equations, numbers, and units
+
+::: {.callout-important}
+These two aspects of thesis preparation are the most problematic.
+:::
+
+### Equations
+
+- Equations are grammatical elements within your document and should be punctuated
+  accordingly.
+- See the [ASME
+  guidelines](https://journaltool.asme.org/Help/AuthorHelp/WebHelp/Guidelines/Writing_a_Technical_Paper.htm)
+  for how to reference equations in the text.
+- Kevin P. Lee's *A Guide to Writing Mathematics* is a good description of how to
+  use equations in your text.
+
+### Numbers and units
+
+- [Rules for the use of numbers in scientific
+  writing](../assets/rules-for-writing-numbers.pdf) — a succinct set of rules
+  ([Word version](../assets/rules-for-writing-numbers.docx)).
+- Use SI units, and use the abbreviation for the units when accompanying numerals.
+- Use a space between a number and its units: 0.5 m, not 0.5m.
+- When using a number less than 1.0, use a leading zero: 0.5 m, not .5 m.
+- Know the difference between a hyphen (-), an en dash (–), and an em dash (—).
+  Use them correctly and know how to enter them in your typesetting software. Don't
+  use spaces before or after hyphens or dashes.
+  - Hyphens connect compound terms: free-for-all.
+  - En dashes are for ranges and can be read as *through*: 0.5–0.4 m.
+  - Em dashes are for parenthetical expressions.
+
+The Louisiana Tech *Guidelines for Equations, Units, and Mathematical Notation* is
+a good reference here — see in particular Section 4, "Numbers and units of
+measurements, in equations or anywhere in the document."
+
+## Style and citations
+
+For issues not explicitly defined in the NPS template and style guide, the MAE
+department defaults to the [ASME
+guidelines](https://journaltool.asme.org/Help/AuthorHelp/WebHelp/Guidelines/Writing_a_Technical_Paper.htm).
+Pay particular attention to the Equations and References sections.
+
+Use ASME citation style, which is very similar to IEEE style.
+
+For capitalization, see the Thesis Capitalization Rules under Style and Grammar in
+[Thesis Processing:
+Resources](https://my.nps.edu/web/thesisprocessing/resources).
+
+## Further resources
+
+- [Mark Tomforde's mathematical writing
+  repository](https://marktomforde.com/academic/gradstudents/gradstudents.html#Writing)
+- [Hyphens, En Dashes, and Em Dashes: Differences, Similarities, and
+  Uses](https://www.sjsu.edu/writingcenter/docs/handouts/Hyphens%20Dashes.pdf) —
+  San José State University Writing Center

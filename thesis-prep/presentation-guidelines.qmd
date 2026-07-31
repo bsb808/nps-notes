@@ -1,0 +1,55 @@
+---
+title: "MS thesis presentation guidelines"
+subtitle: "Preparing and delivering the thesis brief"
+---
+
+A few high-level, general notes on preparing and delivering your master's thesis
+brief.
+
+## Audience and objective
+
+Your audience is the NPS faculty and your Program Officer, so you can assume
+general technical knowledge and an understanding of Naval priorities.
+
+Your objective is to communicate a succinct description of your research
+contributions and substantiate those contributions with evidence.
+
+::: {.callout-tip}
+A thought experiment. The Department Chair attends your presentation along with
+three others. Afterward they go to Starbucks and run into the GSEAS Dean, who asks,
+"You just came from LT X's thesis presentation, true? What was their research
+about?" The Chair should be able to summarize, from memory, what you have worked on
+for the last 12–18 months.
+:::
+
+## Highlight your contributions
+
+Early in the presentation, include a Contributions slide that lays them out
+clearly in bullet points.
+
+## It won't all fit
+
+You cannot fit your entire thesis into a 15-minute brief.
+
+- Start with your contributions, and include the findings, conclusions, and results
+  you feel are most important, compelling, or interesting.
+- Focus on the results more than the process that led to them — but be prepared to
+  defend both the process and the evidence.
+- Significant parts of your thesis will have to be left out. Two strategies help:
+  - It is fine to allude to detail that lives in the document: "the derivation of
+    this expression is in the thesis, but I'm not going to cover it here."
+  - Include backup slides for aspects likely to come up in questions.
+
+## Timing
+
+Plan for a 15-minute brief, with 5 minutes for questions and transition.
+
+## Preparation
+
+1. Start with an outline to decide what to include and what to leave out. Reviewing
+   the outline with your advisor before building slides is suggested, though not
+   required.
+2. Practice alone first, for timing. Practice like you play — stand up, speak out
+   loud, and use a stopwatch.
+3. Then practice with an audience of your advisor(s) and peers. Schedule this at
+   least two days before your brief so you have time to revise.

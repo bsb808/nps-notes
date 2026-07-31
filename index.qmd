@@ -1,19 +1,19 @@
 ---
 title: "NPS Notes"
-subtitle: "Advising notes and thesis-preparation guides — Brian Bingham"
+subtitle: "Brian Bingham"
 ---
 
 This site holds the material students need from *me* rather than from a particular
 course: how I advise, what I expect from thesis work, and the technical guidance I
 would otherwise explain one conversation at a time.
 
-Course material lives on its own site — see [{{< var course_name >}}]({{< var course_site >}}).
+Course material lives on its own sites — see [{{< var course_name >}}]({{< var course_site >}}).
 
 ## Categories
 
 | Category | Pages |
 |---|---|
-| **[Advising](advising/index.qmd)**<br/>Expectations and timelines | [Working with me](advising/working-with-me.qmd)<br/>[Thesis timeline](advising/thesis-timeline.qmd) |
-| **[Thesis Preparation](thesis-prep/index.qmd)**<br/>Tools and technique | [Development environment](thesis-prep/dev-environment.qmd)<br/>[Git for thesis work](thesis-prep/git-for-thesis-work.qmd)<br/>[Figures for writing](thesis-prep/figures-for-writing.qmd) |
+| **[Advising](advising/index.qmd)**<br/>Expectations and timelines | [Working with me](advising/working-with-me.qmd)<br/>[Thesis timeline](advising/thesis-timeline.qmd)<br/>[Second reader expectations](advising/second-reader.qmd) |
+| **[Thesis Preparation](thesis-prep/index.qmd)**<br/>Tools and technique | [Technical writing notes](thesis-prep/technical-writing.qmd)<br/>[Figures for writing](thesis-prep/figures-for-writing.qmd)<br/>[MATLAB movie generation](thesis-prep/matlab-movies.qmd)<br/>[MS thesis presentation guidelines](thesis-prep/presentation-guidelines.qmd)<br/>[MAE final draft process](thesis-prep/final-draft-process.qmd) |
 
 : {tbl-colwidths="[35,65]"}

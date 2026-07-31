@@ -10,7 +10,9 @@ Written for students I advise or am about to advise. Read
 
 ## Pages
 
-- **[Working with me](working-with-me.qmd)** — meeting cadence, what to bring, how
-  I give feedback, and what I expect you to own.
-- **[Thesis timeline](thesis-timeline.qmd)** — milestones from topic selection to
-  defense, with the lead times that actually bind.
+- **[Working with me](working-with-me.qmd)** — how I balance coursework against
+  research, what the draft stages mean, and how my review of your thesis works.
+- **[Thesis timeline](thesis-timeline.qmd)** — the notional five-quarter plan, with
+  deliverables quarter by quarter through graduation.
+- **[Second reader expectations](second-reader.qmd)** — read this if you would like
+  me to serve as a thesis second reader.

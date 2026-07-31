@@ -1,0 +1,51 @@
+---
+title: "Second reader expectations"
+subtitle: "Read this if you would like me to serve as a thesis second reader"
+---
+
+These notes are intended to manage bilateral expectations. In my experience,
+explicit expectations on both sides make things more efficient and more
+productive. Timing can be tight at the end of a student's time at NPS, so part of
+the purpose here is to help you plan your thesis workflow schedule.
+
+My approach as second reader is to support you in preparing a written thesis
+consistent with the expectations of the MAE Department, NPS, and the general
+engineering science academic community. Normally the second reader is not involved
+regularly with the research, though all NPS faculty are ready to help any student
+with domain-specific questions. If the second reader is expected to be a regular
+contributor to the research effort, it is probably more appropriate to modify the
+role to that of co-advisor.
+
+## What I expect
+
+- You will review my [technical writing
+  notes](../thesis-prep/technical-writing.qmd) before developing your final draft,
+  and your draft will be free of the common mistakes addressed there.
+- I will be asked to review a final draft of your complete thesis document only
+  **after your advisor has reviewed and signed off on the document**.
+- You will give me a minimum of one week's notice of when to expect your completed
+  draft.
+- You will send me the draft electronically as a PDF. Box or OneDrive is best for
+  large files.
+- I will have at least one week to review the document and get it back to you. I
+  will return it electronically with comments and edits.
+- Addressing the comments and edits can typically happen quickly, but you should
+  plan time to make corrections.
+- I do not need to re-review the draft. I expect you will address all the comments,
+  edits, and questions provided, and will ask for clarification if you need more
+  detail on a specific issue.
+
+## What you can expect
+
+- I will be available for specific questions while you work on your research and
+  your thesis.
+- Once I have advance notice of when to expect your draft, I will block out a few
+  hours to review it within one week — hopefully sooner.
+- I will return your draft with electronic notes. My opinions as second reader are
+  secondary to your primary advisor's guidance; if our recommendations conflict,
+  follow your advisor.
+- Unless I say otherwise on the returned draft, we do not need to meet to go over
+  the comments. They are intended to stand alone, and I assume you will address
+  them all before submitting the final document.
+- If you have questions about the comments, or other follow-up questions, you can
+  schedule time to work together to finalize the draft.

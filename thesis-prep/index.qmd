@@ -10,10 +10,14 @@ is meant to be looked up, not read through.
 
 ## Pages
 
-- **[Development environment](dev-environment.qmd)** — the setup I recommend, and
-  why: shell, editor, Python/MATLAB, and version control.
-- **[Git for thesis work](git-for-thesis-work.qmd)** — a working subset of git for
-  a multi-year, single-author project, including how to handle large data and
-  LaTeX.
-- **[Figures for writing](figures-for-writing.qmd)** — producing figures that stay
-  legible in a printed thesis and a projected slide.
+- **[Technical writing notes](technical-writing.qmd)** — best practices and common
+  mistakes for NPS theses: contributions, figures and tables, equations, numbers
+  and units, citation style.
+- **[Figures for writing](figures-for-writing.qmd)** — generating publication-quality
+  images from MATLAB with `export_fig`.
+- **[MATLAB movie generation](matlab-movies.qmd)** — turning a sequence of figures
+  into a video.
+- **[MS thesis presentation guidelines](presentation-guidelines.qmd)** — preparing
+  and delivering the thesis brief.
+- **[MAE final draft process](final-draft-process.qmd)** — the unofficial guide to
+  getting the Department Chair's final authorization.
