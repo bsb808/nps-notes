@@ -1,0 +1,12 @@
+---
+title: "Thesis timeline"
+subtitle: "Milestones and the lead times that bind"
+---
+
+::: {.callout-warning appearance="simple"}
+**TODO** — stub. Prose to be written.
+:::
+
+Intended contents: milestones from topic selection through proposal, data
+collection, writing, and defense — with the deadlines that have real lead time
+(committee formation, IRB or release review, thesis processing).

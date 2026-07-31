@@ -1,0 +1,19 @@
+---
+title: "How-Tos"
+subtitle: "Technical guides that outlive any one course"
+---
+
+::: {.callout-note appearance="simple"}
+Tool and workflow guides for research and thesis work. Use the search box — this
+section is meant to be looked up, not read through.
+:::
+
+## Pages
+
+- **[Development environment](dev-environment.qmd)** — the setup I recommend, and
+  why: shell, editor, Python/MATLAB, and version control.
+- **[Git for thesis work](git-for-thesis-work.qmd)** — a working subset of git for
+  a multi-year, single-author project, including how to handle large data and
+  LaTeX.
+- **[Figures for writing](figures-for-writing.qmd)** — producing figures that stay
+  legible in a printed thesis and a projected slide.

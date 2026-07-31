@@ -1,0 +1,12 @@
+---
+title: "Git for thesis work"
+subtitle: "A working subset for a long single-author project"
+---
+
+::: {.callout-warning appearance="simple"}
+**TODO** — stub. Prose to be written.
+:::
+
+Intended contents: the handful of commands that carry a thesis, commit hygiene
+for a document you will revise for two years, what belongs in the repo and what
+does not (large data, generated PDFs), and recovering from the usual mistakes.

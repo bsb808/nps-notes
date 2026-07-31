@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "advising/**/*.qmd"
+    - "howto/**/*.qmd"
+  resources:
+    - CNAME
+
+website:
+  title: "NPS Notes — Brian Bingham"
+  site-url: https://nps-notes.bbingham.dev
+  repo-url: https://github.com/bsb808/nps-notes
+  search: true               # a reference site is searched, not read through
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: advising/index.qmd
+        text: Advising
+      - href: howto/index.qmd
+        text: How-Tos
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/bsb808/nps-notes
+        aria-label: Source on GitHub
+  page-footer:
+    left: "© Brian Bingham · [Source on GitHub](https://github.com/bsb808/nps-notes)"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    html-math-method: mathjax
+    link-external-newwindow: true
+    link-external-icon: true
+    grid:
+      body-width: 1400px       # default 800; raise the cap so wide monitors are used
+      margin-width: 200px
+      sidebar-width: 200px

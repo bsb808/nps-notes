@@ -1,0 +1,12 @@
+---
+title: "Working with me"
+subtitle: "Meeting cadence, feedback, and what you own"
+---
+
+::: {.callout-warning appearance="simple"}
+**TODO** — stub. Prose to be written.
+:::
+
+Intended contents: how often we meet and who sets the agenda, what to bring to a
+meeting, how I give feedback on drafts, and which parts of the work are yours to
+drive.

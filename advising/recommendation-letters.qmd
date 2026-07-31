@@ -1,0 +1,12 @@
+---
+title: "Recommendation letters"
+subtitle: "When to ask and what to send me"
+---
+
+::: {.callout-warning appearance="simple"}
+**TODO** — stub. Prose to be written.
+:::
+
+Intended contents: how much notice I need, the packet to send with the request
+(CV, transcript, the specific opportunity, deadlines and submission mechanics),
+and what kind of letter I am in a position to write.

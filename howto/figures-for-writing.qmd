@@ -1,0 +1,12 @@
+---
+title: "Figures for writing"
+subtitle: "Legible in print and on a projector"
+---
+
+::: {.callout-warning appearance="simple"}
+**TODO** — stub. Prose to be written.
+:::
+
+Intended contents: vector versus raster and when each is right, sizing and font
+choices that survive a printed thesis, color choices that survive grayscale and
+a bad projector, and the export settings to use from MATLAB, Python, and draw.io.

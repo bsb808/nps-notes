@@ -1,0 +1,13 @@
+## Quarto build output and cache
+/_site/
+/.quarto/
+**/*.quarto_ipynb
+
+## LaTeX side-artifacts (if a page ever pulls one in)
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+.DS_Store
+.trash/

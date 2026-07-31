@@ -1,0 +1,29 @@
+---
+title: "About"
+---
+
+## Contact
+
+| | |
+|---|---|
+| **Name** | {{< var name >}} |
+| **Email** | {{< var email >}} |
+| **Office** | {{< var office >}} |
+| **Office hours** | {{< var office_hours >}} |
+
+::: {.callout-note appearance="simple"}
+Office and office-hours values are placeholders in `_variables.yml` — fill them in
+before the site goes out to students.
+:::
+
+## Courses
+
+- [{{< var course_name >}}]({{< var course_site >}})
+
+## About this site
+
+Notes that are mine rather than any one course's: advising expectations and
+technical how-tos. Built with [Quarto](https://quarto.org/) and published from
+[bsb808/nps-notes](https://github.com/bsb808/nps-notes).
+
+Last updated: {{< var last_updated >}}.

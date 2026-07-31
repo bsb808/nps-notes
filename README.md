@@ -1,0 +1,30 @@
+# nps-notes
+
+Source for <https://nps-notes.bbingham.dev> — advising notes and technical
+how-tos for NPS students, independent of any one course.
+
+## Working on it
+
+```bash
+quarto preview        # live preview at localhost, from the repo root
+quarto render         # one-shot build into _site/
+```
+
+## Publishing
+
+Push to `main`. A GitHub Actions workflow renders the site and deploys it to the
+`gh-pages` branch, which GitHub Pages serves at the custom domain. There is no
+manual build or upload step.
+
+## Layout
+
+```
+_quarto.yml        site config (title, nav, theme, CNAME resource)
+_variables.yml     contact info and course links used by pages
+CNAME              custom domain
+index.qmd          landing page
+about.qmd          contact and office hours
+advising/          advising notes
+howto/             technical guides
+assets/            images and small PDFs
+```

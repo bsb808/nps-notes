@@ -1,0 +1,18 @@
+---
+title: "Advising"
+subtitle: "Expectations, timelines, and the mechanics of working together"
+---
+
+::: {.callout-note appearance="simple"}
+Written for students I advise or am about to advise. Read
+[Working with me](working-with-me.qmd) first.
+:::
+
+## Pages
+
+- **[Working with me](working-with-me.qmd)** — meeting cadence, what to bring, how
+  I give feedback, and what I expect you to own.
+- **[Thesis timeline](thesis-timeline.qmd)** — milestones from topic selection to
+  defense, with the lead times that actually bind.
+- **[Recommendation letters](recommendation-letters.qmd)** — when to ask, what to
+  send me, and what I can and cannot write.
