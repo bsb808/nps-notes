@@ -82,8 +82,8 @@ These two aspects of thesis preparation are the most problematic.
 - See the [ASME
   guidelines](https://journaltool.asme.org/Help/AuthorHelp/WebHelp/Guidelines/Writing_a_Technical_Paper.htm)
   for how to reference equations in the text.
-- Kevin P. Lee's *A Guide to Writing Mathematics* is a good description of how to
-  use equations in your text.
+- [A Guide to Writing Mathematics](../assets/writing-mathematics-lee.pdf), by Dr.
+  Kevin P. Lee, is a good description of how to use equations in your text.
 
 ### Numbers and units
 
@@ -100,9 +100,10 @@ These two aspects of thesis preparation are the most problematic.
   - En dashes are for ranges and can be read as *through*: 0.5–0.4 m.
   - Em dashes are for parenthetical expressions.
 
-The Louisiana Tech *Guidelines for Equations, Units, and Mathematical Notation* is
+[Guidelines for Equations, Units, and Mathematical
+Notation](../assets/equation-guidelines-latech.pdf) (Louisiana Tech University) is
 a good reference here — see in particular Section 4, "Numbers and units of
-measurements, in equations or anywhere in the document."
+measurement, in equations or anywhere in the document."
 
 ## Style and citations
 
@@ -122,5 +123,11 @@ Resources](https://my.nps.edu/web/thesisprocessing/resources).
 - [Mark Tomforde's mathematical writing
   repository](https://marktomforde.com/academic/gradstudents/gradstudents.html#Writing)
 - [Hyphens, En Dashes, and Em Dashes: Differences, Similarities, and
-  Uses](https://www.sjsu.edu/writingcenter/docs/handouts/Hyphens%20Dashes.pdf) —
-  San José State University Writing Center
+  Uses](../assets/hyphens-and-dashes-sjsu.pdf) — San José State University Writing
+  Center ([original](https://www.sjsu.edu/writingcenter/docs/handouts/Hyphens%20Dashes.pdf))
+
+::: {.callout-note appearance="simple"}
+The PDFs linked above are archived copies of third-party documents, kept here
+because external links rot. Each is credited to its author; rights remain with
+them.
+:::
