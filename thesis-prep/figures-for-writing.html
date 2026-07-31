@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Working with me – NPS Notes — Brian Bingham</title>
+<title>Figures for writing – NPS Notes — Brian Bingham</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -35,6 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../assets/favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -44,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1db32e7a167240ce06d5e79be2b2d485.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-298b7bca3bba520b1288648a40ad03ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,14 +134,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../advising/index.html"> 
-<span class="menu-text">Advising</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../howto/index.html"> 
-<span class="menu-text">How-Tos</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -122,21 +150,104 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../thesis-prep/index.html">Thesis Preparation</a></li><li class="breadcrumb-item"><a href="../thesis-prep/figures-for-writing.html">Figures for writing</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../advising/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Advising</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../advising/quickstart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MS Thesis Advising Quickstart</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../advising/second-reader.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Second reader expectations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../thesis-prep/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thesis Preparation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/technical-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Technical writing notes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/figures-for-writing.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Figures for writing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/matlab-movies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MATLAB movie generation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/presentation-guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MS thesis presentation guidelines</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#export_fig" id="toc-export_fig" class="nav-link active" data-scroll-target="#export_fig">export_fig</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  <li><a href="#matlab-wrappers" id="toc-matlab-wrappers" class="nav-link" data-scroll-target="#matlab-wrappers">MATLAB wrappers</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../thesis-prep/index.html">Thesis Preparation</a></li><li class="breadcrumb-item"><a href="../thesis-prep/figures-for-writing.html">Figures for writing</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Working with me</h1>
-<p class="subtitle lead">Meeting cadence, feedback, and what you own</p>
+<h1 class="title">Figures for writing</h1>
+<p class="subtitle lead">Generating high-quality MATLAB figures for publication</p>
 </div>
 
 
@@ -153,19 +264,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-simple callout-warning">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>TODO</strong> — stub. Prose to be written.</p>
-</div>
-</div>
-</div>
-<p>Intended contents: how often we meet and who sets the agenda, what to bring to a meeting, how I give feedback on drafts, and which parts of the work are yours to drive.</p>
+<p>Generating high-quality figures for documents — theses, papers — can be challenging. In general you will want to generate an image file from the figure window and then include that image in your document. Below are general notes with a Linux-specific example.</p>
+<section id="export_fig" class="level2">
+<h2 class="anchored" data-anchor-id="export_fig">export_fig</h2>
+<p>The <a href="https://www.mathworks.com/matlabcentral/fileexchange/23629-export-fig">export_fig utility from the MathWorks File Exchange</a> does most of the heavy lifting of saving high-resolution images from MATLAB figures. Download the zip archive and place it somewhere MATLAB can find the <code>.m</code> file — you can set the MATLAB path so that <code>export_fig.m</code> is always found.</p>
+<p>Read the README and the File Information on File Exchange for documentation. In particular, you will need to install Ghostscript.</p>
+</section>
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">% Set the default text sizes for the root figure</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="fl">0</span><span class="op">,</span><span class="ss">'defaulttextfontsize'</span><span class="op">,</span><span class="fl">20</span>)<span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="fl">0</span><span class="op">,</span><span class="ss">'defaultaxesfontsize'</span><span class="op">,</span><span class="fl">12</span>)<span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">% Set the background color to white</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gcf</span><span class="op">,</span><span class="ss">'color'</span><span class="op">,</span><span class="ss">'w'</span>)<span class="op">;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">% Here is an example figure</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="va">figure</span>(<span class="fl">1</span>)<span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="va">clf</span>()<span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="va">plot</span>(<span class="fl">0</span><span class="op">:</span><span class="fl">9</span><span class="op">,</span><span class="va">rand</span>(<span class="fl">10</span><span class="op">,</span><span class="fl">1</span>)<span class="op">,</span><span class="ss">'o-'</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="va">xlabel</span>(<span class="ss">'Distance [m]'</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="va">ylabel</span>(<span class="ss">'Force [N]'</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="va">legend</span>(<span class="ss">'Data'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="va">grid</span> <span class="va">on</span><span class="op">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">% Now call export_fig to generate a png image file at 300 dpi</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="va">export_fig</span> <span class="va">example</span>.<span class="va">png</span> <span class="op">-</span><span class="va">png</span> <span class="op">-</span><span class="va">r300</span> <span class="op">-</span><span class="va">painters</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If all goes well you will have an image file <code>example.png</code> in your working directory that looks like this:</p>
+<p><img src="../assets/matlab-figure-example.png" class="img-fluid" alt="MATLAB line plot exported with export_fig, showing labeled axes with engineering units and a legend." width="500"></p>
+<p>Note that the figure carries no title — the title belongs to the document, not the image. See <a href="../thesis-prep/technical-writing.html">technical writing notes</a> for the distinction between figure titles and captions.</p>
+</section>
+<section id="matlab-wrappers" class="level2">
+<h2 class="anchored" data-anchor-id="matlab-wrappers">MATLAB wrappers</h2>
+<p>Personally I get tired of typing all of that, or putting it in every script, so I have convenience functions for creating figures for publication. They live in the <a href="https://github.com/bsb808/frlbox">frlbox repository</a>; the figure export scripts — <code>pubfig.m</code> and <code>exfig.m</code> — are in <a href="https://github.com/bsb808/frlbox/tree/master/figbox">figbox</a>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

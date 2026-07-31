@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Figures for writing – NPS Notes — Brian Bingham</title>
+<title>MATLAB movie generation – NPS Notes — Brian Bingham</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -35,6 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../assets/favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -44,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1db32e7a167240ce06d5e79be2b2d485.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-298b7bca3bba520b1288648a40ad03ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,14 +134,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../advising/index.html"> 
-<span class="menu-text">Advising</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../howto/index.html"> 
-<span class="menu-text">How-Tos</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -122,21 +150,103 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../thesis-prep/index.html">Thesis Preparation</a></li><li class="breadcrumb-item"><a href="../thesis-prep/matlab-movies.html">MATLAB movie generation</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../advising/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Advising</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../advising/quickstart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MS Thesis Advising Quickstart</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../advising/second-reader.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Second reader expectations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../thesis-prep/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thesis Preparation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/technical-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Technical writing notes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/figures-for-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Figures for writing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/matlab-movies.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">MATLAB movie generation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../thesis-prep/presentation-guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MS thesis presentation guidelines</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-1-generating-the-image-sequence" id="toc-step-1-generating-the-image-sequence" class="nav-link active" data-scroll-target="#step-1-generating-the-image-sequence">Step 1: generating the image sequence</a></li>
+  <li><a href="#step-2-generating-the-movie" id="toc-step-2-generating-the-movie" class="nav-link" data-scroll-target="#step-2-generating-the-movie">Step 2: generating the movie</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../thesis-prep/index.html">Thesis Preparation</a></li><li class="breadcrumb-item"><a href="../thesis-prep/matlab-movies.html">MATLAB movie generation</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Figures for writing</h1>
-<p class="subtitle lead">Legible in print and on a projector</p>
+<h1 class="title">MATLAB movie generation</h1>
+<p class="subtitle lead">Turning a sequence of figures into a video</p>
 </div>
 
 
@@ -153,19 +263,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-simple callout-warning">
+<p>There are a few ways to generate movies, videos, and animations with MATLAB. Below is one method that works with Linux/Ubuntu. There are two basic steps:</p>
+<ol type="1">
+<li>In MATLAB, generate a sequence of images and save them as sequentially named files — <code>image-001.png</code>, <code>image-002.png</code>, and so on.</li>
+<li>In Linux, use a tool like <code>ffmpeg</code> or <code>avconv</code> to generate a movie file from the image sequence.</li>
+</ol>
+<p>The code for these examples is at <a href="https://github.com/bsb808/matlabmovie">github.com/bsb808/matlabmovie</a>.</p>
+<section id="step-1-generating-the-image-sequence" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-generating-the-image-sequence">Step 1: generating the image sequence</h2>
+<p>This example uses <a href="../thesis-prep/figures-for-writing.html">export_fig</a> to generate a sequence of images in a <code>movie</code> directory.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">% Example of creating a MATLAB animation</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">% For the example we will create a sequence of images, saving each image in</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">% the sequence to a file.  Then, externally (not in MATLAB) we will combine</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">% the images into a video file.</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">% Create a sequence of images</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="va">N</span> <span class="op">=</span> <span class="fl">100</span><span class="op">;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="va">figure</span>(<span class="fl">1</span>)<span class="op">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="va">clf</span>()<span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="va">YY</span> <span class="op">=</span> []<span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="kw">for</span> <span class="va">ii</span> <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="va">N</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="va">YY</span>(<span class="va">ii</span>) <span class="op">=</span> <span class="va">rand</span>()<span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="va">plot</span>(<span class="fl">1</span><span class="op">:</span><span class="va">ii</span><span class="op">,</span><span class="va">YY</span><span class="op">,</span><span class="ss">'o-'</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="va">xlabel</span>(<span class="ss">'Distance [m]'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="va">ylabel</span>(<span class="ss">'Force [N]'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="va">title</span>(<span class="va">sprintf</span>(<span class="ss">'Step %d'</span><span class="op">,</span><span class="va">ii</span>))<span class="op">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="va">grid</span> <span class="va">on</span><span class="op">;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="va">axis</span>([<span class="fl">0</span> <span class="va">N</span> <span class="fl">0</span> <span class="fl">1</span>])</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">% Save each figure as a image file (.png)</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="co">% The number of the image is included in the file name</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="co">% Make sure there is a directory called "movie" in your current working</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="co">% directory.</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="va">fname</span> <span class="op">=</span> <span class="va">sprintf</span>(<span class="ss">'movie/image-%05d'</span><span class="op">,</span><span class="va">ii</span>)<span class="op">;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="co">% Saves each image at 72 dpi.  May want to adjust the resolution</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="va">cmd</span> <span class="op">=</span> <span class="va">sprintf</span>(<span class="ss">'export_fig %s -png -r72 -painters'</span><span class="op">,</span><span class="va">fname</span>)<span class="op">;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="va">eval</span>(<span class="va">cmd</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>You should now have a directory full of images:</p>
+<p><img src="../assets/matlab-movie-frames.png" class="img-fluid" alt="File listing showing a sequence of numbered PNG image files produced by the MATLAB script." width="500"></p>
+</section>
+<section id="step-2-generating-the-movie" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-generating-the-movie">Step 2: generating the movie</h2>
+<p>The following command finds those images and converts them into <code>out.mp4</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">avconv</span> <span class="at">-framerate</span> 4 <span class="at">-i</span> <span class="st">"./movie/image-%05d.png"</span> <span class="at">-c:v</span> libx264 <span class="at">-r</span> 20 <span class="dt">\</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">-pix_fmt</span> yuv420p <span class="at">-crf</span> 20 <span class="dt">\</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">-vf</span> <span class="st">"scale=trunc(iw/2)*2:trunc(ih/2)*2"</span> out.mp4</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The syntax is equivalent for <code>ffmpeg</code>. There are a number of cryptic options here.</p>
+<p>If all goes well you have a movie:</p>
+<video src="../assets/matlab-movie-example.mp4" controls="" width="500">
+</video>
+<p>The video quality here is not especially high. To improve it, adjust the image resolution in MATLAB, the command-line options to <code>avconv</code>/<code>ffmpeg</code>, or both.</p>
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>TODO</strong> — stub. Prose to be written.</p>
+<p>Unlike a figure for a document, an animation of this kind reasonably carries its own title — note the <code>title()</code> call in the script above.</p>
 </div>
 </div>
 </div>
-<p>Intended contents: vector versus raster and when each is right, sizing and font choices that survive a printed thesis, color choices that survive grayscale and a bad projector, and the export settings to use from MATLAB, Python, and draw.io.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

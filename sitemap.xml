@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nps-notes.bbingham.dev/index.html</loc>
-    <lastmod>2026-07-31T17:43:47.642Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/thesis-prep/technical-writing.html</loc>
+    <lastmod>2026-07-31T18:33:53.056Z</lastmod>
   </url>
   <url>
-    <loc>https://nps-notes.bbingham.dev/howto/git-for-thesis-work.html</loc>
-    <lastmod>2026-07-31T17:43:47.642Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/thesis-prep/matlab-movies.html</loc>
+    <lastmod>2026-07-31T18:33:53.056Z</lastmod>
   </url>
   <url>
-    <loc>https://nps-notes.bbingham.dev/howto/dev-environment.html</loc>
-    <lastmod>2026-07-31T17:43:47.641Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/thesis-prep/figures-for-writing.html</loc>
+    <lastmod>2026-07-31T18:33:53.055Z</lastmod>
   </url>
   <url>
-    <loc>https://nps-notes.bbingham.dev/advising/thesis-timeline.html</loc>
-    <lastmod>2026-07-31T17:43:47.641Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nps-notes.bbingham.dev/about.html</loc>
-    <lastmod>2026-07-31T17:43:47.641Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/advising/second-reader.html</loc>
+    <lastmod>2026-07-31T18:33:53.051Z</lastmod>
   </url>
   <url>
     <loc>https://nps-notes.bbingham.dev/advising/index.html</loc>
-    <lastmod>2026-07-31T17:43:47.641Z</lastmod>
+    <lastmod>2026-07-31T18:33:53.050Z</lastmod>
   </url>
   <url>
-    <loc>https://nps-notes.bbingham.dev/advising/working-with-me.html</loc>
-    <lastmod>2026-07-31T17:43:47.641Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/about.html</loc>
+    <lastmod>2026-07-31T18:33:53.050Z</lastmod>
   </url>
   <url>
-    <loc>https://nps-notes.bbingham.dev/howto/figures-for-writing.html</loc>
-    <lastmod>2026-07-31T17:43:47.642Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/advising/quickstart.html</loc>
+    <lastmod>2026-07-31T18:33:53.051Z</lastmod>
   </url>
   <url>
-    <loc>https://nps-notes.bbingham.dev/howto/index.html</loc>
-    <lastmod>2026-07-31T17:43:47.642Z</lastmod>
+    <loc>https://nps-notes.bbingham.dev/index.html</loc>
+    <lastmod>2026-07-31T18:33:53.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nps-notes.bbingham.dev/thesis-prep/index.html</loc>
+    <lastmod>2026-07-31T18:33:53.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nps-notes.bbingham.dev/thesis-prep/presentation-guidelines.html</loc>
+    <lastmod>2026-07-31T18:33:53.056Z</lastmod>
   </url>
 </urlset>

@@ -1,45 +1,236 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NPS Notes",
+    "objectID": "thesis-prep/technical-writing.html",
+    "href": "thesis-prep/technical-writing.html",
+    "title": "Technical writing notes",
     "section": "",
-    "text": "This site holds the material students need from me rather than from a particular course: how I advise, what I expect from thesis work, and the technical how-tos I would otherwise explain one conversation at a time.\nCourse material lives on its own site — see ME 2801 — Introduction to Feedback Control."
+    "text": "A collection of best practices and common mistakes for technical writing at NPS — in particular for theses in the MAE department. These notes complement the official thesis guidelines and template; if there is any conflict in style recommendations, use the official NPS processing guidelines.\nIdeally these will save you time, so you don’t have to fix known issues during the revision process.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
   },
   {
-    "objectID": "index.html#sections",
-    "href": "index.html#sections",
-    "title": "NPS Notes",
-    "section": "Sections",
-    "text": "Sections\n\n\nAdvising\nHow to work with me, and what a thesis timeline looks like.\n\n\nHow-Tos\nSetting up a development environment, using git for thesis work, and producing figures that survive publication."
+    "objectID": "thesis-prep/technical-writing.html#contributions",
+    "href": "thesis-prep/technical-writing.html#contributions",
+    "title": "Technical writing notes",
+    "section": "Contributions",
+    "text": "Contributions\nThe contributions of a thesis or research paper should be clear and concise. I recommend a subsection titled Contributions listing them in bullet form. There do not need to be many — one to three is typical — but they are critically important in guiding what evidence belongs in the work and what is left out. Everything in the document should relate to these points, helping you substantiate the claims.\nParaphrasing a colleague: “all research must answer a definitive question; good research answers an important question.” M. E. Swisher’s What Constitutes a Good Contribution provides worthwhile guidance.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
   },
   {
-    "objectID": "howto/git-for-thesis-work.html",
-    "href": "howto/git-for-thesis-work.html",
-    "title": "Git for thesis work",
-    "section": "",
-    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: the handful of commands that carry a thesis, commit hygiene for a document you will revise for two years, what belongs in the repo and what does not (large data, generated PDFs), and recovering from the usual mistakes."
+    "objectID": "thesis-prep/technical-writing.html#general-grammar",
+    "href": "thesis-prep/technical-writing.html#general-grammar",
+    "title": "Technical writing notes",
+    "section": "General grammar",
+    "text": "General grammar\nIf you don’t know how to use a particular grammatical construction, look it up rather than inventing your own usage. For example: when you use the word “but,” when should there be a preceding comma? There is a great deal of specific guidance online from many good sources.\nFor the basics — which cover 95% of what you need — I highly recommend Strunk and White’s The Elements of Style, available free online. Developing habits that follow the usage guidelines in this very short book will save you a lot of revision time.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
   },
   {
-    "objectID": "howto/dev-environment.html",
-    "href": "howto/dev-environment.html",
-    "title": "Development environment",
-    "section": "",
-    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: operating system and shell, editor and extensions, Python environment management, MATLAB, and how these fit together on an NPS-managed machine."
+    "objectID": "thesis-prep/technical-writing.html#figures-and-tables",
+    "href": "thesis-prep/technical-writing.html#figures-and-tables",
+    "title": "Technical writing notes",
+    "section": "Figures and tables",
+    "text": "Figures and tables\nThere is a distinction between figure titles and captions:\n\nThe NPS thesis template puts figure titles below the image. As the template explains, figure titles are capitalized like a book title. This is what appears in the list of figures.\nA figure caption is a brief explanation of the image contents, written in complete sentences and punctuated accordingly. The template formats these as Figure Secondary Caption. Captions are optional, but encouraged — a good portion of readers look at your figures and read the captions as the first step in reading your work.\n\nOther rules that come up constantly:\n\nAll graphs should have labels on all axes, and the labels should include engineering units.\nAny text in the figure — labels, legends — should use a font size similar to the document text and be clearly readable.\nA common mistake is an image that carries its own title. For figures there should be no title inside the image (no title() command in MATLAB); the title belongs to the document.\n\nSee figures for writing for how to produce publication-quality images from MATLAB.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
   },
   {
-    "objectID": "advising/thesis-timeline.html",
-    "href": "advising/thesis-timeline.html",
-    "title": "Thesis timeline",
+    "objectID": "thesis-prep/technical-writing.html#equations-numbers-and-units",
+    "href": "thesis-prep/technical-writing.html#equations-numbers-and-units",
+    "title": "Technical writing notes",
+    "section": "Equations, numbers, and units",
+    "text": "Equations, numbers, and units\n\n\n\n\n\n\nImportant\n\n\n\nThese two aspects of thesis preparation are the most problematic.\n\n\n\nEquations\n\nEquations are grammatical elements within your document and should be punctuated accordingly.\nSee the ASME guidelines for how to reference equations in the text.\nA Guide to Writing Mathematics, by Dr. Kevin P. Lee, is a good description of how to use equations in your text.\n\n\n\nNumbers and units\n\nRules for the use of numbers in scientific writing — a succinct set of rules (Word version).\nUse SI units, and use the abbreviation for the units when accompanying numerals.\nUse a space between a number and its units: 0.5 m, not 0.5m.\nWhen using a number less than 1.0, use a leading zero: 0.5 m, not .5 m.\nKnow the difference between a hyphen (-), an en dash (–), and an em dash (—). Use them correctly and know how to enter them in your typesetting software. Don’t use spaces before or after hyphens or dashes.\n\nHyphens connect compound terms: free-for-all.\nEn dashes are for ranges and can be read as through: 0.5–0.4 m.\nEm dashes are for parenthetical expressions.\n\n\nGuidelines for Equations, Units, and Mathematical Notation (Louisiana Tech University) is a good reference here — see in particular Section 4, “Numbers and units of measurement, in equations or anywhere in the document.”",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/technical-writing.html#style-and-citations",
+    "href": "thesis-prep/technical-writing.html#style-and-citations",
+    "title": "Technical writing notes",
+    "section": "Style and citations",
+    "text": "Style and citations\nFor issues not explicitly defined in the NPS template and style guide, the MAE department defaults to the ASME guidelines. Pay particular attention to the Equations and References sections.\nUse ASME citation style, which is very similar to IEEE style.\nFor capitalization, see the Thesis Capitalization Rules under Style and Grammar in Thesis Processing: Resources.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/technical-writing.html#further-resources",
+    "href": "thesis-prep/technical-writing.html#further-resources",
+    "title": "Technical writing notes",
+    "section": "Further resources",
+    "text": "Further resources\n\nMark Tomforde’s mathematical writing repository\nHyphens, En Dashes, and Em Dashes: Differences, Similarities, and Uses — San José State University Writing Center (original)\n\n\n\n\n\n\n\nThe PDFs linked above are archived copies of third-party documents, kept here because external links rot. Each is credited to its author; rights remain with them.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Technical writing notes"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/matlab-movies.html",
+    "href": "thesis-prep/matlab-movies.html",
+    "title": "MATLAB movie generation",
     "section": "",
-    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: milestones from topic selection through proposal, data collection, writing, and defense — with the deadlines that have real lead time (committee formation, IRB or release review, thesis processing)."
+    "text": "There are a few ways to generate movies, videos, and animations with MATLAB. Below is one method that works with Linux/Ubuntu. There are two basic steps:\nThe code for these examples is at github.com/bsb808/matlabmovie.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MATLAB movie generation"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/matlab-movies.html#step-1-generating-the-image-sequence",
+    "href": "thesis-prep/matlab-movies.html#step-1-generating-the-image-sequence",
+    "title": "MATLAB movie generation",
+    "section": "Step 1: generating the image sequence",
+    "text": "Step 1: generating the image sequence\nThis example uses export_fig to generate a sequence of images in a movie directory.\n% Example of creating a MATLAB animation\n% For the example we will create a sequence of images, saving each image in\n% the sequence to a file.  Then, externally (not in MATLAB) we will combine\n% the images into a video file.\n\n% Create a sequence of images\nN = 100;\nfigure(1);\nclf();\nYY = [];\nfor ii = 1:N\n    YY(ii) = rand();\n    plot(1:ii,YY,'o-')\n    xlabel('Distance [m]')\n    ylabel('Force [N]')\n    title(sprintf('Step %d',ii));\n    grid on;\n    axis([0 N 0 1])\n\n    % Save each figure as a image file (.png)\n    % The number of the image is included in the file name\n    % Make sure there is a directory called \"movie\" in your current working\n    % directory.\n    fname = sprintf('movie/image-%05d',ii);\n    % Saves each image at 72 dpi.  May want to adjust the resolution\n    cmd = sprintf('export_fig %s -png -r72 -painters',fname);\n    eval(cmd)\nend\nYou should now have a directory full of images:",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MATLAB movie generation"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/matlab-movies.html#step-2-generating-the-movie",
+    "href": "thesis-prep/matlab-movies.html#step-2-generating-the-movie",
+    "title": "MATLAB movie generation",
+    "section": "Step 2: generating the movie",
+    "text": "Step 2: generating the movie\nThe following command finds those images and converts them into out.mp4:\navconv -framerate 4 -i \"./movie/image-%05d.png\" -c:v libx264 -r 20 \\\n  -pix_fmt yuv420p -crf 20 \\\n  -vf \"scale=trunc(iw/2)*2:trunc(ih/2)*2\" out.mp4\nThe syntax is equivalent for ffmpeg. There are a number of cryptic options here.\nIf all goes well you have a movie:\n\n\nThe video quality here is not especially high. To improve it, adjust the image resolution in MATLAB, the command-line options to avconv/ffmpeg, or both.\n\n\n\n\n\n\nUnlike a figure for a document, an animation of this kind reasonably carries its own title — note the title() call in the script above.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MATLAB movie generation"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/figures-for-writing.html",
+    "href": "thesis-prep/figures-for-writing.html",
+    "title": "Figures for writing",
+    "section": "",
+    "text": "Generating high-quality figures for documents — theses, papers — can be challenging. In general you will want to generate an image file from the figure window and then include that image in your document. Below are general notes with a Linux-specific example.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Figures for writing"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/figures-for-writing.html#export_fig",
+    "href": "thesis-prep/figures-for-writing.html#export_fig",
+    "title": "Figures for writing",
+    "section": "export_fig",
+    "text": "export_fig\nThe export_fig utility from the MathWorks File Exchange does most of the heavy lifting of saving high-resolution images from MATLAB figures. Download the zip archive and place it somewhere MATLAB can find the .m file — you can set the MATLAB path so that export_fig.m is always found.\nRead the README and the File Information on File Exchange for documentation. In particular, you will need to install Ghostscript.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Figures for writing"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/figures-for-writing.html#example",
+    "href": "thesis-prep/figures-for-writing.html#example",
+    "title": "Figures for writing",
+    "section": "Example",
+    "text": "Example\n% Set the default text sizes for the root figure\nset(0,'defaulttextfontsize',20);\nset(0,'defaultaxesfontsize',12);\n\n% Set the background color to white\nset(gcf,'color','w');\n\n% Here is an example figure\nfigure(1);\nclf();\nplot(0:9,rand(10,1),'o-')\nxlabel('Distance [m]')\nylabel('Force [N]')\nlegend('Data')\ngrid on;\n\n% Now call export_fig to generate a png image file at 300 dpi\nexport_fig example.png -png -r300 -painters\nIf all goes well you will have an image file example.png in your working directory that looks like this:\n\nNote that the figure carries no title — the title belongs to the document, not the image. See technical writing notes for the distinction between figure titles and captions.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Figures for writing"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/figures-for-writing.html#matlab-wrappers",
+    "href": "thesis-prep/figures-for-writing.html#matlab-wrappers",
+    "title": "Figures for writing",
+    "section": "MATLAB wrappers",
+    "text": "MATLAB wrappers\nPersonally I get tired of typing all of that, or putting it in every script, so I have convenience functions for creating figures for publication. They live in the frlbox repository; the figure export scripts — pubfig.m and exfig.m — are in figbox.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "Figures for writing"
+    ]
+  },
+  {
+    "objectID": "advising/second-reader.html",
+    "href": "advising/second-reader.html",
+    "title": "Second reader expectations",
+    "section": "",
+    "text": "These notes are intended to manage bilateral expectations. In my experience, explicit expectations on both sides make things more efficient and more productive. Timing can be tight at the end of a student’s time at NPS, so part of the purpose here is to help you plan your thesis workflow schedule.\nMy approach as second reader is to support you in preparing a written thesis consistent with the expectations of the MAE Department, NPS, and the general engineering science academic community. Normally the second reader is not involved regularly with the research, though all NPS faculty are ready to help any student with domain-specific questions. If the second reader is expected to be a regular contributor to the research effort, it is probably more appropriate to modify the role to that of co-advisor.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "Second reader expectations"
+    ]
+  },
+  {
+    "objectID": "advising/second-reader.html#what-i-expect",
+    "href": "advising/second-reader.html#what-i-expect",
+    "title": "Second reader expectations",
+    "section": "What I expect",
+    "text": "What I expect\n\nYou will review my technical writing notes before developing your final draft, and your draft will be free of the common mistakes addressed there.\nI will be asked to review a final draft of your complete thesis document only after your advisor has reviewed and signed off on the document.\nYou will give me a minimum of one week’s notice of when to expect your completed draft.\nYou will send me the draft electronically as a PDF. Box or OneDrive is best for large files.\nI will have at least one week to review the document and get it back to you. I will return it electronically with comments and edits.\nAddressing the comments and edits can typically happen quickly, but you should plan time to make corrections.\nI do not need to re-review the draft. I expect you will address all the comments, edits, and questions provided, and will ask for clarification if you need more detail on a specific issue.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "Second reader expectations"
+    ]
+  },
+  {
+    "objectID": "advising/second-reader.html#what-you-can-expect",
+    "href": "advising/second-reader.html#what-you-can-expect",
+    "title": "Second reader expectations",
+    "section": "What you can expect",
+    "text": "What you can expect\n\nI will be available for specific questions while you work on your research and your thesis.\nOnce I have advance notice of when to expect your draft, I will block out a few hours to review it within one week — hopefully sooner.\nI will return your draft with electronic notes. My opinions as second reader are secondary to your primary advisor’s guidance; if our recommendations conflict, follow your advisor.\nUnless I say otherwise on the returned draft, we do not need to meet to go over the comments. They are intended to stand alone, and I assume you will address them all before submitting the final document.\nIf you have questions about the comments, or other follow-up questions, you can schedule time to work together to finalize the draft.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "Second reader expectations"
+    ]
+  },
+  {
+    "objectID": "advising/index.html",
+    "href": "advising/index.html",
+    "title": "Advising",
+    "section": "",
+    "text": "Written for students I advise or am about to advise. Read the quickstart first.",
+    "crumbs": [
+      "Home",
+      "Advising"
+    ]
+  },
+  {
+    "objectID": "advising/index.html#pages",
+    "href": "advising/index.html#pages",
+    "title": "Advising",
+    "section": "Pages",
+    "text": "Pages\n\nMS Thesis Advising Quickstart — introductory notes for new and potential advisees: the time commitment, a five-quarter schedule with deliverables, what the draft stages mean, and how my review works.\nSecond reader expectations — read this if you would like me to serve as a thesis second reader.",
+    "crumbs": [
+      "Home",
+      "Advising"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Notes that are mine rather than any one course’s: advising expectations and technical how-tos. Written by Brian Bingham for NPS students."
+    "text": "Notes that are mine rather than any one course’s: advising expectations and thesis-preparation guidance. Written by Brian Bingham for NPS students."
   },
   {
     "objectID": "about.html#courses",
@@ -56,45 +247,183 @@
     "text": "About this site\nBuilt with Quarto and published from bsb808/nps-notes.\nLast updated: 2026-07-31."
   },
   {
-    "objectID": "advising/index.html",
-    "href": "advising/index.html",
-    "title": "Advising",
+    "objectID": "advising/quickstart.html",
+    "href": "advising/quickstart.html",
+    "title": "MS Thesis Advising Quickstart",
     "section": "",
-    "text": "Written for students I advise or am about to advise. Read Working with me first."
+    "text": "These are introductory notes for new and potential thesis advisees in the Field Robotics Lab. They exist to set expectations on both sides and to give you a schedule you can plan against. Explicit expectations make the work more efficient and more productive.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "MS Thesis Advising Quickstart"
+    ]
   },
   {
-    "objectID": "advising/index.html#pages",
-    "href": "advising/index.html#pages",
-    "title": "Advising",
+    "objectID": "advising/quickstart.html#what-you-are-committing-to",
+    "href": "advising/quickstart.html#what-you-are-committing-to",
+    "title": "MS Thesis Advising Quickstart",
+    "section": "What you are committing to",
+    "text": "What you are committing to\n\n\n\n\n\n\nImportant\n\n\n\nTo do a high-quality thesis requires that you commit to doing a thesis in FRL five quarters prior to your graduation.\n\n\nThesis research in FRL takes more time than the four thesis blocks allocated in your course matrix. The table below estimates the commitment in units of class blocks — roughly double the time formally allocated.\n\n\n\n\n\n\n\n\n\n\n\nQuarter\n4\n3\n2\n1\n0\n\n\n\n\nDescription\nBackground — problem statement, lit review, proposal\nFoundation — tools, skills, prototyping\nExecution — development, experiment\nDocumentation — document, draft\nGraduation — administration, revision\n\n\nTime\n1 course overload\n1 thesis block + 1 course overload\n1 thesis block + 1 course overload\n2 thesis blocks\n1 thesis block (1 directed study)\n\n\n\nCourse work and research work will often compete for your time. Courses should not be neglected for your research, but neither should your research be neglected for coursework. There will be times when you need to prioritize progress on your research over perfecting work for your courses.\nNPS offers a number of additional educational opportunities — the TSSE program, FE/PE exam preparation, and others. In my experience, taking on these additional commitments should be carefully considered when planning your time.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "MS Thesis Advising Quickstart"
+    ]
+  },
+  {
+    "objectID": "advising/quickstart.html#generic-thesis-outline",
+    "href": "advising/quickstart.html#generic-thesis-outline",
+    "title": "MS Thesis Advising Quickstart",
+    "section": "Generic thesis outline",
+    "text": "Generic thesis outline\nFor the purposes of this discussion, an NPS MS thesis consists of these chapters. This is an approximation, not a rule.\n\nIntroduction — motivation, problem statement, contributions.\nLiterature Review — background, closely related work.\nApproach — background, procedures, methods, models, experimental setup.\nResults and Analysis — the majority of the technical contribution.\nConclusion — discussion, summary referring back to the problem statement and contributions, and future work.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "MS Thesis Advising Quickstart"
+    ]
+  },
+  {
+    "objectID": "advising/quickstart.html#the-schedule",
+    "href": "advising/quickstart.html#the-schedule",
+    "title": "MS Thesis Advising Quickstart",
+    "section": "The schedule",
+    "text": "The schedule\nTypical deliverables by quarter follow. Your specific timeline will be based on your topic, but will likely vary only slightly.\n\nQuarter 4: Background\nDevelop a specific thesis question and investigate the research literature to describe how your topic fits within the context of the current literature.\nMid-quarter:\n\nSecond Draft, thesis proposal\nOutline of Literature Review chapter\n\nEnd of quarter:\n\nFinal Draft, thesis proposal, including specific anticipated contributions\nFirst Draft, Literature Review chapter, with document database and automated cross-references\nDetailed Outline of Introduction\n\n\n\nQuarter 3: Foundation\nAcquire the knowledge and skills required to execute your approach. This may include reproducing previous results from the literature, learning new tools, or setting up new systems — vehicles, sensors, and so on.\nBeginning of quarter:\n\nFull Outline of Approach chapter\n\nMid-quarter:\n\nFirst Draft of Introduction and Approach chapters\n\nEnd of quarter:\n\nSecond Draft of Introduction and Approach chapters\n\n\n\nQuarter 2: Execution\nThe culmination of the previous two quarters, and where the “doing” of the thesis work happens. By the end of the quarter you should have answered your thesis question.\nBeginning of quarter:\n\nFull Outline of Results and Analysis chapter\n\nEnd of quarter:\n\n90% of thesis research complete\nDetailed Outline of Results and Analysis chapter\n\n\n\nQuarter 1: Documentation\nThe emphasis shifts from doing the research to documenting the results. You begin by drafting the Results and Analysis chapter; assembling that material usually reveals additional work — experiments, simulations — needed to finalize the results. This is also when you begin working with the document as a whole rather than individual chapters.\nMid-quarter:\n\nFirst Draft of Results and Analysis chapter\nDetailed Outline of Conclusion chapter\n\nEnd of quarter:\n\nSecond Draft of Results and Analysis chapter\nFirst Draft of Conclusion chapter and Abstract\nFirst Draft of complete thesis\n\n\n\nQuarter 0: Graduation\nThis quarter guides your thesis through the revision and acceptance process.\n\n\n\n\n\n\n\nWeek\nMilestone\n\n\n\n\n2\nSubmit first three chapters to thesis processing\n\n\n3\nSubmit Second Draft of complete thesis to your advisor\n\n\n6\nSubmit Third Draft to second reader\n\n\n8\nSubmit Final Draft to the department (Chair and Program Officer)\n\n\n9\nSubmission to thesis processing\n\n\n11\nGraduation",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "MS Thesis Advising Quickstart"
+    ]
+  },
+  {
+    "objectID": "advising/quickstart.html#writing",
+    "href": "advising/quickstart.html#writing",
+    "title": "MS Thesis Advising Quickstart",
+    "section": "Writing",
+    "text": "Writing\nI provide notes and pointers to resources to help you prepare thesis documents, but I do not proofread your documents. When writing professional research documents — proposal, papers, thesis — you should:\n\nMake sure you are prepared, by consulting the writing resources and doing whatever preparation you need in order to write effectively.\nPrepare a First Draft.\nPrepare a Second Draft by revising the document at least once, having at least one external person review it (a classmate, the graduate writing center), and revising again based on that review.\n\n\nStages of a document\nI use these terms consistently when planning, so that we mean the same thing by them:\n\n\n\n\n\n\n\nStage\nWhat it means\n\n\n\n\nOutline\nHeadings, subheadings, and subsubheadings only.\n\n\nFull Outline\nOutline plus a description of each element — notes, bullet lists.\n\n\nDetailed Outline\nFull Outline plus key figures, tables, and equations, or sketches of what we expect them to look like. Includes bullet lists of anticipated results and conclusions.\n\n\nFirst Draft\nThe first time the document is in a state to be reviewed and revised.\n\n\nSecond Draft\nAfter you have revised it yourself, had it reviewed externally, and revised again based on that review. This is the draft that is ready for my review.\n\n\nThird Draft\nReviewed by me and revised — ready for the second reader.\n\n\nFinal Draft\nAccepted by the second reader and ready for department review.\n\n\n\nThe Full Outline and Detailed Outline are the critical steps. Once we agree on the Detailed Outline for each part of your thesis, the writing itself should be fairly straightforward.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "MS Thesis Advising Quickstart"
+    ]
+  },
+  {
+    "objectID": "advising/quickstart.html#how-my-review-works",
+    "href": "advising/quickstart.html#how-my-review-works",
+    "title": "MS Thesis Advising Quickstart",
+    "section": "How my review works",
+    "text": "How my review works\n\n\n\n\n\n\nImportant\n\n\n\nMy review happens between the Second and Third Drafts, and at least three weeks should be budgeted for it. That allows time for iteration, discussion, and the possibility of additional experiments and analysis.\n\n\nMy detailed review is done on the complete thesis document at the Second Draft stage, including complete conclusions and abstract. I am of course happy to review parts of the document earlier — a specific chapter or section you have questions about — but reviewing the complete document is the most efficient use of everyone’s time.",
+    "crumbs": [
+      "Home",
+      "Advising",
+      "MS Thesis Advising Quickstart"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NPS Notes",
+    "section": "",
+    "text": "This site holds the material students need from me rather than from a particular course: how I advise, what I expect from thesis work, and the technical guidance I would otherwise explain one conversation at a time.\nCourse material lives on its own sites — see ME 2801 — Introduction to Feedback Control."
+  },
+  {
+    "objectID": "index.html#categories",
+    "href": "index.html#categories",
+    "title": "NPS Notes",
+    "section": "Categories",
+    "text": "Categories\n\n\n\n\n\n\n\nCategory\nPages\n\n\n\n\nAdvising\nMS Thesis Advising QuickstartSecond reader expectations\n\n\nThesis Preparation\nTechnical writing notesFigures for writingMATLAB movie generationMS thesis presentation guidelines"
+  },
+  {
+    "objectID": "thesis-prep/index.html",
+    "href": "thesis-prep/index.html",
+    "title": "Thesis Preparation",
+    "section": "",
+    "text": "Practical guidance that outlives any one course. Use the search box — this section is meant to be looked up, not read through.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/index.html#pages",
+    "href": "thesis-prep/index.html#pages",
+    "title": "Thesis Preparation",
     "section": "Pages",
-    "text": "Pages\n\nWorking with me — meeting cadence, what to bring, how I give feedback, and what I expect you to own.\nThesis timeline — milestones from topic selection to defense, with the lead times that actually bind."
+    "text": "Pages\n\nTechnical writing notes — best practices and common mistakes for NPS theses: contributions, figures and tables, equations, numbers and units, citation style.\nFigures for writing — generating publication-quality images from MATLAB with export_fig.\nMATLAB movie generation — turning a sequence of figures into a video.\nMS thesis presentation guidelines — preparing and delivering the thesis brief.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation"
+    ]
   },
   {
-    "objectID": "advising/working-with-me.html",
-    "href": "advising/working-with-me.html",
-    "title": "Working with me",
+    "objectID": "thesis-prep/presentation-guidelines.html",
+    "href": "thesis-prep/presentation-guidelines.html",
+    "title": "MS thesis presentation guidelines",
     "section": "",
-    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: how often we meet and who sets the agenda, what to bring to a meeting, how I give feedback on drafts, and which parts of the work are yours to drive."
+    "text": "A few high-level, general notes on preparing and delivering your master’s thesis brief.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MS thesis presentation guidelines"
+    ]
   },
   {
-    "objectID": "howto/figures-for-writing.html",
-    "href": "howto/figures-for-writing.html",
-    "title": "Figures for writing",
-    "section": "",
-    "text": "TODO — stub. Prose to be written.\n\n\n\nIntended contents: vector versus raster and when each is right, sizing and font choices that survive a printed thesis, color choices that survive grayscale and a bad projector, and the export settings to use from MATLAB, Python, and draw.io."
+    "objectID": "thesis-prep/presentation-guidelines.html#audience-and-objective",
+    "href": "thesis-prep/presentation-guidelines.html#audience-and-objective",
+    "title": "MS thesis presentation guidelines",
+    "section": "Audience and objective",
+    "text": "Audience and objective\nYour audience is the NPS faculty and your Program Officer, so you can assume general technical knowledge and an understanding of Naval priorities.\nYour objective is to communicate a succinct description of your research contributions and substantiate those contributions with evidence.\n\n\n\n\n\n\nTip\n\n\n\nA thought experiment. The Department Chair attends your presentation along with three others. Afterward they go to Starbucks and run into the GSEAS Dean, who asks, “You just came from LT X’s thesis presentation, true? What was their research about?” The Chair should be able to summarize, from memory, what you have worked on for the last 12–18 months.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MS thesis presentation guidelines"
+    ]
   },
   {
-    "objectID": "howto/index.html",
-    "href": "howto/index.html",
-    "title": "How-Tos",
-    "section": "",
-    "text": "Tool and workflow guides for research and thesis work. Use the search box — this section is meant to be looked up, not read through."
+    "objectID": "thesis-prep/presentation-guidelines.html#highlight-your-contributions",
+    "href": "thesis-prep/presentation-guidelines.html#highlight-your-contributions",
+    "title": "MS thesis presentation guidelines",
+    "section": "Highlight your contributions",
+    "text": "Highlight your contributions\nEarly in the presentation, include a Contributions slide that lays them out clearly in bullet points.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MS thesis presentation guidelines"
+    ]
   },
   {
-    "objectID": "howto/index.html#pages",
-    "href": "howto/index.html#pages",
-    "title": "How-Tos",
-    "section": "Pages",
-    "text": "Pages\n\nDevelopment environment — the setup I recommend, and why: shell, editor, Python/MATLAB, and version control.\nGit for thesis work — a working subset of git for a multi-year, single-author project, including how to handle large data and LaTeX.\nFigures for writing — producing figures that stay legible in a printed thesis and a projected slide."
+    "objectID": "thesis-prep/presentation-guidelines.html#it-wont-all-fit",
+    "href": "thesis-prep/presentation-guidelines.html#it-wont-all-fit",
+    "title": "MS thesis presentation guidelines",
+    "section": "It won’t all fit",
+    "text": "It won’t all fit\nYou cannot fit your entire thesis into a 15-minute brief.\n\nStart with your contributions, and include the findings, conclusions, and results you feel are most important, compelling, or interesting.\nFocus on the results more than the process that led to them — but be prepared to defend both the process and the evidence.\nSignificant parts of your thesis will have to be left out. Two strategies help:\n\nIt is fine to allude to detail that lives in the document: “the derivation of this expression is in the thesis, but I’m not going to cover it here.”\nInclude backup slides for aspects likely to come up in questions.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MS thesis presentation guidelines"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/presentation-guidelines.html#timing",
+    "href": "thesis-prep/presentation-guidelines.html#timing",
+    "title": "MS thesis presentation guidelines",
+    "section": "Timing",
+    "text": "Timing\nPlan for a 15-minute brief, with 5 minutes for questions and transition.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MS thesis presentation guidelines"
+    ]
+  },
+  {
+    "objectID": "thesis-prep/presentation-guidelines.html#preparation",
+    "href": "thesis-prep/presentation-guidelines.html#preparation",
+    "title": "MS thesis presentation guidelines",
+    "section": "Preparation",
+    "text": "Preparation\n\nStart with an outline to decide what to include and what to leave out. Reviewing the outline with your advisor before building slides is suggested, though not required.\nPractice alone first, for timing. Practice like you play — stand up, speak out loud, and use a stopwatch.\nThen practice with an audience of your advisor(s) and peers. Schedule this at least two days before your brief so you have time to revise.",
+    "crumbs": [
+      "Home",
+      "Thesis Preparation",
+      "MS thesis presentation guidelines"
+    ]
   }
 ]
