@@ -1,29 +1,19 @@
 ---
 title: "NPS Notes"
-subtitle: "Advising notes and technical how-tos — Brian Bingham"
+subtitle: "Advising notes and thesis-preparation guides — Brian Bingham"
 ---
 
 This site holds the material students need from *me* rather than from a particular
-course: how I advise, what I expect from thesis work, and the technical how-tos I
+course: how I advise, what I expect from thesis work, and the technical guidance I
 would otherwise explain one conversation at a time.
 
 Course material lives on its own site — see [{{< var course_name >}}]({{< var course_site >}}).
 
-## Sections
+## Categories
 
-::: {.grid}
+| Category | Pages |
+|---|---|
+| **[Advising](advising/index.qmd)**<br/>Expectations and timelines | [Working with me](advising/working-with-me.qmd)<br/>[Thesis timeline](advising/thesis-timeline.qmd) |
+| **[Thesis Preparation](thesis-prep/index.qmd)**<br/>Tools and technique | [Development environment](thesis-prep/dev-environment.qmd)<br/>[Git for thesis work](thesis-prep/git-for-thesis-work.qmd)<br/>[Figures for writing](thesis-prep/figures-for-writing.qmd) |
 
-::: {.g-col-12 .g-col-md-6}
-### [Advising](advising/index.qmd)
-
-How to work with me, and what a thesis timeline looks like.
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### [How-Tos](howto/index.qmd)
-
-Setting up a development environment, using git for thesis work, and producing
-figures that survive publication.
-:::
-
-:::
+: {tbl-colwidths="[35,65]"}

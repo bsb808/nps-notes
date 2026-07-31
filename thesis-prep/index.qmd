@@ -1,11 +1,11 @@
 ---
-title: "How-Tos"
-subtitle: "Technical guides that outlive any one course"
+title: "Thesis Preparation"
+subtitle: "Tools and technique for getting the work done and written"
 ---
 
 ::: {.callout-note appearance="simple"}
-Tool and workflow guides for research and thesis work. Use the search box — this
-section is meant to be looked up, not read through.
+Practical guidance that outlives any one course. Use the search box — this section
+is meant to be looked up, not read through.
 :::
 
 ## Pages

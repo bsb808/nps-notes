@@ -1,7 +1,7 @@
 # nps-notes
 
-Source for <https://nps-notes.bbingham.dev> — advising notes and technical
-how-tos for NPS students, independent of any one course.
+Source for <https://nps-notes.bbingham.dev> — advising notes and
+thesis-preparation guides for NPS students, independent of any one course.
 
 ## Working on it
 
@@ -22,9 +22,9 @@ manual build or upload step.
 _quarto.yml        site config (title, nav, theme, CNAME resource)
 _variables.yml     name, course links, last-updated date used by pages
 CNAME              custom domain
-index.qmd          landing page
+index.qmd          landing page — table of categories and their pages
 about.qmd          what the site is, links out to courses
 advising/          advising notes
-howto/             technical guides
+thesis-prep/       tools and technique for thesis work
 assets/            images and small PDFs
 ```

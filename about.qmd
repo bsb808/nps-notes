@@ -3,7 +3,7 @@ title: "About"
 ---
 
 Notes that are mine rather than any one course's: advising expectations and
-technical how-tos. Written by {{< var name >}} for NPS students.
+thesis-preparation guidance. Written by {{< var name >}} for NPS students.
 
 ## Courses
 

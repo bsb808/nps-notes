@@ -1,7 +1,7 @@
 # nps-notes
 
-Personal, course-independent student-facing site: advising notes and technical
-how-tos. Published at <https://nps-notes.bbingham.dev>.
+Personal, course-independent student-facing site: advising notes and
+thesis-preparation guides. Published at <https://nps-notes.bbingham.dev>.
 
 ## Structure
 
@@ -9,7 +9,13 @@ Quarto website with the project at the **repo root** (no `site/` nesting — thi
 differs from the ME 2801 course repo, which nests). Two content sections:
 
 - `advising/` — expectations, thesis timeline
-- `howto/` — technical guides (dev environment, git, figures)
+- `thesis-prep/` — tools and technique (dev environment, git, figures)
+
+Navigation follows the old-MIT-homepage shape Brian asked for: categories in a
+left sidebar, detail in the main column at right. The navbar carries only Home /
+About / GitHub; the two categories live in the `sidebar:` block of `_quarto.yml`.
+Keep the sidebar to **two levels** — category, then pages. If a page needs
+subsections, use headings within it rather than a third nav level.
 
 `_variables.yml` holds name, course links, and the last-updated date, referenced
 from pages as `{{< var course_site >}}`. There are no per-quarter variables here —
@@ -38,8 +44,9 @@ quarto render && cat _site/CNAME    # → nps-notes.bbingham.dev
 
 ## Authoring conventions
 
-- One `.qmd` per topic; section landing pages (`advising/index.qmd`,
-  `howto/index.qmd`) carry the page list and must be updated when a page is added.
+- One `.qmd` per topic. Adding a page means updating three places: the category
+  landing page's list, the `sidebar:` contents in `_quarto.yml`, and the table on
+  `index.qmd`.
 - Front matter: `title` plus a short `subtitle`.
 - Unwritten pages carry a `::: {.callout-warning appearance="simple"} **TODO**`
   block and a one-paragraph statement of intended contents.
